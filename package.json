@@ -11,10 +11,9 @@
     "prebuild": "npm run clean",
     "build": "tsc -p tsconfig.json",
     "format": "lint-staged",
-    "prepublish:npm": "npm run build",
-    "publish:npm": "npm publish",
     "pretest": "npm run build",
-    "test": "mocha -r ts-node/register test/**/*.spec.ts"
+    "test": "mocha -r ts-node/register test/**/*.spec.ts",
+    "prepublishOnly": "npm run build"
   },
   "devDependencies": {
     "@types/chai": "^4.1.7",
