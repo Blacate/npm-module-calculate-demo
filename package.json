@@ -13,6 +13,7 @@
     "format": "lint-staged",
     "prepublish:npm": "npm run build",
     "publish:npm": "npm publish",
+    "pretest": "npm run build",
     "test": "mocha -r ts-node/register test/**/*.spec.ts"
   },
   "devDependencies": {
