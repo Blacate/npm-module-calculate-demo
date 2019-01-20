@@ -1,4 +1,4 @@
-import { Calculate } from '../dist';
+import { Calculate } from '../';
 import { expect } from 'chai';
 
 const calculate = new Calculate();
