@@ -1,6 +1,6 @@
 {
   "name": "npm-module-calculate-demo",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A demo of writing an npm module",
   "main": "index.js",
   "author": "Neail",
